@@ -1,0 +1,15 @@
+{
+  "name": "react-admin-playground",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "json-server --watch db.json --port 5000 --middlewares ./range.js",
+    "client": "yarn --cwd client start"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.16.3"
+  },
+  "devDependencies": {
+    "ra-input-rich-text": "^3.10.1"
+  }
+}
